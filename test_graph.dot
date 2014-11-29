@@ -1,0 +1,7 @@
+ digraph G {
+node [style=rounded]
+T1 [shape=record, label="{{<s1>c|<s2>d|<s3>e}| T1}"];
+T2 [shape=record, label="{{<s1>s1|<s2>d|<s3>e}| T2}"];
+T1:s1 ->T2:s2;
+}
+
